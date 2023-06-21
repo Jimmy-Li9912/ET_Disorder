@@ -1,6 +1,6 @@
 # ET_Disorder
-Download Code from: https://drive.google.com/drive/folders/1SITkbey5VOtRDz-yBIt8mnDfUUfNfeDI?usp=sharing 
-Code for predicting one protein sequence is available now.<br><br>
+Download Code from: https://drive.google.com/drive/folders/1SITkbey5VOtRDz-yBIt8mnDfUUfNfeDI?usp=sharing  <br>
+Code for predicting one protein sequence is available now.<br>
 Batch prediction is incoming.
 # Prepare:
 1. a fasta file containing one protein sequence
@@ -13,4 +13,4 @@ python esm_generate.py --i \<input fasta file\> --o \<outputfile (a .pt file)\>
 python read_pdb.py --seq \<input fasta file\> --pdb \<input pdb file\> --o \<outputfile (a .pt file)\>
 
 # Making Prediction:
-python prediction.py --esm \<ESM embedding file\> --plddt \<pLDDT file\> --o \<outputfile\>
+python prediction.py --esm \<ESM embedding file\> --plddt \<pLDDT file\> --o <outputfile>
