@@ -1,5 +1,6 @@
 # ET_Disorder
-Code for predicting one protein sequence is available now.
+<herf: https://drive.google.com/drive/folders/1SITkbey5VOtRDz-yBIt8mnDfUUfNfeDI?usp=sharing >
+Code for predicting one protein sequence is available now.<br><br>
 Batch prediction is incoming.
 # Prepare:
 1. a fasta file containing one protein sequence
