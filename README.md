@@ -13,4 +13,4 @@ python esm_generate.py --i \<input fasta file\> --o \<outputfile (a .pt file)\>
 python read_pdb.py --seq \<input fasta file\> --pdb \<input pdb file\> --o \<outputfile (a .pt file)\>
 
 # Making Prediction:
-python prediction.py --esm \<ESM embedding file\> --plddt \<pLDDT file\> --o <outputfile>
+python prediction.py --esm \<ESM embedding file\> --plddt \<pLDDT file\> --o \<outputfile\>
