@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 from Bio import SeqIO
+import argparse
 
 def createPlDD(filename = '../struct' ,fastaname="1.fasta"):
     for item in SeqIO.parse(fastaname, "fasta"):
