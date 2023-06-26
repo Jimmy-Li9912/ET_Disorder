@@ -15,14 +15,15 @@ def disordered_predicting(model, data):
     return out.tolist()
 def batch_prediction(model, data):
     return
-if __name__ == '__main__':
-    model_path='./model/ckpt_cnn_2_0.719.pth'
+if __name__ == '__main__':    
     parser = argparse.ArgumentParser(description='DeepCRF Baseline Model')
+    parser.add_argument('--model', default="./model/ckpt_cnn_2_0.719.pth", type=str, help='model path')
     parser.add_argument('--esm', default="./demo/0_esm.pt", type=str, help='esm file')
     parser.add_argument('--plddt', default='./demo/0_plddt.pt', type=str, help='plddt file')
     parser.add_argument('--o', default="./demo/0.pt", type=str, help='output file')
     args = parser.parse_args()
 
+    model_path=args.model
     ESM_path = args.esm
     PLDDT_path = args.plddt
     out_path = args.o
